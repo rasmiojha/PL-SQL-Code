@@ -1,0 +1,57 @@
+Explain the difference between PL/SQL and SQL.
+
+SQL (Structured Query Language)
+Nature: Declarative language.
+Purpose: Primarily used for querying and manipulating data in relational databases.
+Operations: Executes single queries at a time (e.g., SELECT, INSERT, UPDATE, DELETE).
+Control Structures: Does not support control structures like loops or conditionals directly.
+Variables: Does not support variable declaration.
+Error Handling: Limited error handling capabilities.
+Use Case: Ideal for simple data retrieval and manipulation tasks.
+
+PL/SQL (Procedural Language/SQL)
+Nature: Procedural language.
+Purpose: Extends SQL with procedural capabilities, allowing for more complex programming.
+Operations: Executes blocks of code, which can include multiple SQL statements and procedural logic.
+Control Structures: Supports control structures like loops (FOR, WHILE) and conditionals (IF-THEN-ELSE).
+Variables: Allows declaration of variables, constants, and data types.
+Error Handling: Robust error handling with exception handling mechanisms.
+Use Case: Suitable for developing complex business logic, stored procedures, and triggers123.
+In summary, while SQL is excellent for straightforward data manipulation, PL/SQL provides the additional power needed for more complex and procedural tasks within the database.
+
+What are PL/SQL packages and how are they used in real-time projects?
+How do you handle exceptions in PL/SQL? Can you provide an example?
+Describe the use of cursors in PL/SQL. What are the differences between implicit and explicit cursors?
+What is a trigger in PL/SQL? Can you give an example of a scenario where you would use a trigger?
+How do you optimize PL/SQL code for better performance?
+Explain the concept of bulk collect and its advantages.
+What are collections in PL/SQL? How are they used in real-time applications?
+Describe the use of autonomous transactions in PL/SQL.
+How do you debug PL/SQL code? What tools or methods do you use?
+
+
+Here are some common PL/SQL procedures that are often used in the banking domain:
+
+1.Account Management Procedures:
+CREATE_ACCOUNT: Procedure to create a new bank account.
+CLOSE_ACCOUNT: Procedure to close an existing bank account.
+UPDATE_ACCOUNT_DETAILS: Procedure to update account holder information.
+2.Transaction Procedures:
+DEPOSIT_FUNDS: Procedure to deposit money into an account.
+WITHDRAW_FUNDS: Procedure to withdraw money from an account.
+TRANSFER_FUNDS: Procedure to transfer money between accounts.
+3.Loan Management Procedures:
+APPLY_LOAN: Procedure to apply for a new loan.
+APPROVE_LOAN: Procedure to approve a loan application.
+REPAY_LOAN: Procedure to process loan repayments.
+4.Interest Calculation Procedures:
+CALCULATE_INTEREST: Procedure to calculate interest on savings accounts.
+APPLY_INTEREST: Procedure to apply calculated interest to accounts.
+Customer Management Procedures:
+5.ADD_CUSTOMER: Procedure to add a new customer to the bank.
+UPDATE_CUSTOMER_DETAILS: Procedure to update customer information.
+DELETE_CUSTOMER: Procedure to remove a customer from the bank’s records.
+6.Report Generation Procedures:
+GENERATE_ACCOUNT_STATEMENT: Procedure to generate account statements.
+GENERATE_LOAN_REPORT: Procedure to generate reports on loan statuses.
+GENERATE_TRANSACTION_REPORT: Procedure to generate transaction reports.
